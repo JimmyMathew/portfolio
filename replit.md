@@ -50,6 +50,12 @@ The site is served using PHP's built-in development server on port 5000.
 Configured for autoscale deployment using PHP built-in server.
 
 ## Recent Changes
+- **October 25, 2025**: GitHub Pages compatibility and contact form updates
+  - Updated contact form to use Formspree for GitHub Pages compatibility (static hosting)
+  - Added phone number field to contact form (optional)
+  - Created FORMSPREE_SETUP.md guide for easy Formspree configuration
+  - PHP/PHPMailer backend still available for Replit deployments
+  - Form now works on both GitHub Pages (via Formspree) and Replit (via PHP)
 - **October 25, 2025**: Contact form implementation and content updates
   - Implemented functional contact form using PHPMailer with Gmail SMTP
   - Added SMTP_PASSWORD to Replit Secrets for secure email delivery
@@ -108,10 +114,11 @@ Configured for autoscale deployment using PHP built-in server.
   - Configured autoscale deployment for production
 
 ## Contact Form
-- **Email Delivery**: Contact form now uses PHPMailer with SMTP to send emails to jimmy.connect@gmail.com
-- **SMTP Configuration**: Uses Gmail SMTP (smtp.gmail.com:587) with credentials stored securely as environment variables
-- **Required Secrets**: SMTP_PASSWORD (Gmail app password) - stored in Replit Secrets
-- **Features**: HTML formatted emails with sender details, subject, message, and optional phone number
+- **GitHub Pages Compatible**: Contact form uses Formspree (https://formspree.io) for static site email delivery
+- **Setup Required**: Sign up at formspree.io, create a form, and replace `YOUR_FORM_ID` in index.html with your actual form ID
+- **How it works**: When hosted on GitHub Pages, form submissions are sent to Formspree, which forwards them to your email
+- **For Replit hosting**: The PHP/PHPMailer backend (forms/contact.php) is still available if you deploy to Replit instead of GitHub Pages
+- **Free tier**: 50 submissions per month on Formspree's free plan
 
 ## Notes
 - Template originally from BootstrapMade.com, customized with personal information
