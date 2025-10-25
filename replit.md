@@ -40,7 +40,7 @@ Personal portfolio website for Jimmy Mathew, a Full-Stack Lead Developer with 9+
 - **Location**: Toulouse, France
 - **Email**: jimmy.connect@gmail.com
 - **Phone**: +33 7 45 72 19 40
-- **LinkedIn**: linkedin.com/in/jimmy-mathew
+- **LinkedIn**: https://www.linkedin.com/in/jimmy-mathew-tech/
 - **Availability**: Seeking 4-6 months internship from February 2026
 
 ## Development Setup
@@ -50,11 +50,19 @@ The site is served using PHP's built-in development server on port 5000.
 Configured for autoscale deployment using PHP built-in server.
 
 ## Recent Changes
-- **October 25, 2025**: Created custom portfolio images matching tech stacks
-  - Generated 11 unique custom images for each portfolio project
-  - Each image visually represents the project's technology stack and purpose
-  - All images follow the website's blue color theme (#065cc2)
-  - Images include: cloud infrastructure dashboards, API marketplaces, identity verification systems, form builders, resource management tools, mobile app interfaces, and educational websites
+- **October 25, 2025**: Final portfolio updates with theme-matched custom images
+  - Generated 11 unique custom portfolio images matching the website's clean, modern corporate theme
+  - All images use the website's vibrant blue accent color (#065cc2), navy tones, and teal highlights
+  - Images feature technology-forward dashboards, cloud infrastructure diagrams, API workflows, and mobile app interfaces
+  - Applied flat-plus-neumorphic design style with rounded corners and subtle shadows to match site aesthetic
+  - Images include: AWS cloud rental screening platform, API marketplace interface, consumer portal, ID verification system, demand management dashboard, form builder, resource allocation tool, framework components, ServiceNow system, mobile app tracker, and college website
+  - Added professional disclaimer to portfolio section: "Portfolio images are visual representations for reference purposes and do not depict actual project screenshots"
+  - Updated React JS skill from 90% to 75%
+  - Changed Professional Expertise stat from "3 Team Members Led" to "10 Million+ Users Supported"
+  - Updated LinkedIn URL to https://www.linkedin.com/in/jimmy-mathew-tech/ across all instances
+  - Added 2013 Bachelors in Computer Science education timeline entry
+  - Changed "MCA" to full "Masters in Computer Applications" in timeline and education section
+  - Created and installed new clearer JM favicon with large bold letters for better visibility
 - **October 25, 2025**: Enhanced portfolio with additional projects and tech stacks
   - Added Jayaam Mobile App and Loyola College Website projects at the end of portfolio
   - Added detailed tech stack information to all 11 portfolio projects
