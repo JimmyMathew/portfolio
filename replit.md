@@ -52,6 +52,8 @@ Configured for autoscale deployment using PHP built-in server.
 ## Recent Changes
 - **October 25, 2025**: GitHub Pages compatibility and contact form updates
   - Updated contact form to use Formspree for GitHub Pages compatibility (static hosting)
+  - Configured with Formspree form ID: xovpqaln
+  - Modified validate.js to handle both Formspree JSON responses and PHP plain text responses
   - Added phone number field to contact form (optional)
   - Created FORMSPREE_SETUP.md guide for easy Formspree configuration
   - PHP/PHPMailer backend still available for Replit deployments
