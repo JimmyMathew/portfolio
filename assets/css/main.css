@@ -898,10 +898,13 @@ section,
 }
 
 .about .profile-image-wrapper .signature-section .signature {
-  max-width: 200px;
+  max-width: 220px;
   height: auto;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
   opacity: 0.8;
+  display: block;
 }
 
 .about .profile-image-wrapper .signature-section .quote {

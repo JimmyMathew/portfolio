@@ -50,6 +50,13 @@ The site is served using PHP's built-in development server on port 5000.
 Configured for autoscale deployment using PHP built-in server.
 
 ## Recent Changes
+- **October 25, 2025**: Updated portfolio based on key projects document
+  - Changed Projects Completed statistic from 150 to 30+
+  - Updated floating cards from "UI/UX Design, Development, Creative Ideas" to "Development, Creative Ideas, Project Management"
+  - Added full location details to education institutions:
+    - Université Toulouse - Jean Jaurès, Toulouse, France
+    - Loyola College, University of Madras, Chennai, India
+  - Updated career timeline: 2016 - Graduated with MCA from Loyola College - Gold Medalist and joined Flex as an Associate Software Developer
 - **October 25, 2025**: Updated portfolio with latest details
   - Changed title from Senior Developer to Lead Developer
   - Updated profile picture to professional photo
@@ -67,6 +74,7 @@ Configured for autoscale deployment using PHP built-in server.
   - Configured PHP 8.2 for development server
   - Set up workflow to serve the site on port 5000
   - Created .gitignore for Replit environment
+  - Configured autoscale deployment for production
 
 ## Notes
 - The contact form requires the "PHP Email Form" library (pro version) to function (currently not included)
