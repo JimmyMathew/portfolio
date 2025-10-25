@@ -50,6 +50,13 @@ The site is served using PHP's built-in development server on port 5000.
 Configured for autoscale deployment using PHP built-in server.
 
 ## Recent Changes
+- **October 25, 2025**: Contact form implementation and content updates
+  - Implemented functional contact form using PHPMailer with Gmail SMTP
+  - Added SMTP_PASSWORD to Replit Secrets for secure email delivery
+  - Updated hero typed items order: "Full Stack Developer, Team Leader, .NET And Angular Expert, AWS Certified Developer Associate, Agile Strategist, Emerging Digital Project Management Professional, Tech Hobbyist"
+  - Changed profile tagline to "Building systems that scale. Leading teams that thrive. Designing futures that matter."
+  - Installed PHPMailer via Composer for email functionality
+  - Updated .gitignore to exclude vendor/ and composer.lock
 - **October 25, 2025**: Final portfolio updates with theme-matched custom images
   - Generated 11 unique custom portfolio images matching the website's clean, modern corporate theme
   - All images use the website's vibrant blue accent color (#065cc2), navy tones, and teal highlights
@@ -100,8 +107,13 @@ Configured for autoscale deployment using PHP built-in server.
   - Created .gitignore for Replit environment
   - Configured autoscale deployment for production
 
+## Contact Form
+- **Email Delivery**: Contact form now uses PHPMailer with SMTP to send emails to jimmy.connect@gmail.com
+- **SMTP Configuration**: Uses Gmail SMTP (smtp.gmail.com:587) with credentials stored securely as environment variables
+- **Required Secrets**: SMTP_PASSWORD (Gmail app password) - stored in Replit Secrets
+- **Features**: HTML formatted emails with sender details, subject, message, and optional phone number
+
 ## Notes
-- The contact form requires the "PHP Email Form" library (pro version) to function (currently not included)
 - Template originally from BootstrapMade.com, customized with personal information
 - All images optimized in WebP format for better performance
 - Resume PDF available for download directly from the About section

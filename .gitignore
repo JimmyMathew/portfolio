@@ -22,3 +22,7 @@ yarn-error.log*
 # Temporary files
 *.tmp
 *.temp
+
+# Composer
+/vendor/
+composer.lock
