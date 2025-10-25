@@ -50,6 +50,22 @@ The site is served using PHP's built-in development server on port 5000.
 Configured for autoscale deployment using PHP built-in server.
 
 ## Recent Changes
+- **October 25, 2025**: Created custom portfolio images matching tech stacks
+  - Generated 11 unique custom images for each portfolio project
+  - Each image visually represents the project's technology stack and purpose
+  - All images follow the website's blue color theme (#065cc2)
+  - Images include: cloud infrastructure dashboards, API marketplaces, identity verification systems, form builders, resource management tools, mobile app interfaces, and educational websites
+- **October 25, 2025**: Enhanced portfolio with additional projects and tech stacks
+  - Added Jayaam Mobile App and Loyola College Website projects at the end of portfolio
+  - Added detailed tech stack information to all 11 portfolio projects
+  - Created custom "JM" favicon reflecting the website's blue color theme (#065cc2)
+  - Updated all project descriptions with comprehensive technology details
+- **October 25, 2025**: Updated portfolio section with key professional projects
+  - Replaced all portfolio items with 9 key projects from professional career (2016-2025)
+  - Projects include: TransUnion Rental Screening Solutions (TURSS), TransUnion API Marketplace, TransUnion Consumer Interactive (TUCI), ID Vision 2.0, Integrated Demand Management System, Dynamic Form Management, Resource Forecasting, Framework Components, and Failure Analysis System
+  - Excluded Loyola College student projects as requested
+  - Updated portfolio filters to categorize projects as Cloud Apps, APIs & Services, and Web Apps
+  - Added detailed descriptions with technologies used and timeframes for each project
 - **October 25, 2025**: Updated portfolio based on key projects document
   - Changed Projects Completed statistic from 150 to 30+
   - Updated floating cards from "UI/UX Design, Development, Creative Ideas" to "Development, Creative Ideas, Project Management"
